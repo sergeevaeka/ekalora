@@ -163,8 +163,8 @@
       <nav class="hidden md:flex items-center gap-8 text-sm font-medium tracking-wide">
         <a href="#about" class="text-slate-300 hover:text-gold transition-colors">About</a>
         <a href="#commercial-niches" class="text-slate-300 hover:text-gold transition-colors">Commercial Focus</a>
-        <a href="#modeling" class="text-slate-300 hover:text-gold transition-colors">Photo Book (36)</a>
-        <a href="#events" class="text-slate-300 hover:text-gold transition-colors">Tech & Brand Conferences</a>
+        <a href="#modeling" class="text-slate-300 hover:text-gold transition-colors">Photo Book (38)</a>
+        <a href="#events" class="text-slate-300 hover:text-gold transition-colors">Brand Conferences</a>
         <a href="#contacts" class="text-slate-300 hover:text-gold transition-colors">Contact</a>
       </nav>
 
@@ -188,7 +188,7 @@
       <a href="#about" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">About</a>
       <a href="#commercial-niches" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">Commercial Focus (30+)</a>
       <a href="#modeling" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">Photo Book</a>
-      <a href="#events" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">Tech & Brand Conferences</a>
+      <a href="#events" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">Brand Conferences</a>
       <a href="#contacts" class="block text-slate-200 hover:text-gold py-1 text-base font-medium">Contact & Booking</a>
       <div class="pt-4 border-t border-white/10">
         <a href="#contacts" class="block text-center w-full py-3 rounded-full bg-gradient-to-r from-gold to-goldLight text-noir font-semibold text-sm uppercase tracking-wider">
@@ -256,7 +256,7 @@
               Commercial Focus (30+)
             </a>
             <a href="#events" class="px-7 py-3.5 rounded-full border border-white/20 hover:border-gold text-white font-medium text-sm tracking-wider uppercase hover:bg-white/5 transition-all">
-              Conferences & Brand Production
+              Brand Conferences
             </a>
             <button onclick="openCompCardModal()" class="px-6 py-3.5 rounded-full border border-gold/40 bg-gold/10 text-gold hover:bg-gold hover:text-noir text-xs uppercase tracking-wider font-semibold transition-all">
               Comp Card
@@ -436,7 +436,7 @@
               Photo Gallery & Niches
             </h2>
             <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
-              36 high-resolution photos showcasing commercial editorial, fine jewelry styling, fitness poise, and natural beauty.
+              38 high-resolution photos showcasing commercial editorial, fine jewelry styling, fitness poise, and natural beauty.
             </p>
           </div>
 
@@ -485,7 +485,7 @@
         <!-- FILTER BUTTONS -->
         <div class="flex items-center justify-center gap-2 flex-wrap">
           <button onclick="filterGallery('all')" class="gallery-filter-btn active px-5 py-2 rounded-full text-xs uppercase tracking-wider font-medium bg-gold text-noir transition-all">
-            All Photos (36)
+            All Photos (38)
           </button>
           <button onclick="filterGallery('jewelry')" class="gallery-filter-btn px-5 py-2 rounded-full text-xs uppercase tracking-wider font-medium text-slate-300 hover:text-white bg-white/5 border border-white/10 transition-all">
             💎 Jewelry & Watches
@@ -583,6 +583,40 @@
                 <span class="text-[10px] uppercase tracking-widest text-gold font-semibold">Jewelry & Watches • Evening</span>
                 <h3 class="text-xl font-serif text-white">Emerald Silk & Luxury Timepiece</h3>
                 <p class="text-xs text-slate-300 mt-1">Luxury Wristwatch & Ring • Emerald Silk Couture</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 ml-3 rounded-full bg-noir/60 backdrop-blur-md border border-white/25 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-noir group-hover:border-gold transition-all shadow-md">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H8M17 7V16"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div class="gallery-item commercial group relative rounded-2xl overflow-hidden glass-card cursor-pointer aspect-[3/4]" onclick="openLightbox(this)" data-title="Botanical Pergola & White Columns" data-category="Commercial 30+ • Resort" data-location="Botanical Sanctuary" data-desc="Full-length summer portrait framed by white classical columns and a lush green pergola, showcasing natural smile, wristwatch, and balanced 168 cm / 50 kg proportions.">
+            <img src="images/garden-pergola-columns.jpg?v=2" alt="Botanical Pergola & White Columns" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" onerror="this.src='garden-pergola-columns.jpg?v=2'">
+            <div class="absolute inset-0 bg-gradient-to-t from-noir via-noir/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+            <div class="absolute bottom-0 inset-x-0 p-6 flex justify-between items-end">
+              <div>
+                <span class="text-[10px] uppercase tracking-widest text-gold font-semibold">Commercial 30+ • Resort</span>
+                <h3 class="text-xl font-serif text-white">Botanical Pergola & White Columns</h3>
+                <p class="text-xs text-slate-300 mt-1">Classical Columns • Full-Length Summer Editorial</p>
+              </div>
+              <span class="w-10 h-10 shrink-0 ml-3 rounded-full bg-noir/60 backdrop-blur-md border border-white/25 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-noir group-hover:border-gold transition-all shadow-md">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 17L17 7M17 7H8M17 7V16"/>
+                </svg>
+              </span>
+            </div>
+          </div>
+
+          <div class="gallery-item jewelry group relative rounded-2xl overflow-hidden glass-card cursor-pointer aspect-[3/4]" onclick="openLightbox(this)" data-title="Palm Sanctuary & YSL Resort Styling" data-category="Jewelry & Watches • Resort" data-location="Europe" data-desc="Full-length resort portrait in a palm garden with historic architecture, featuring a luxury wristwatch, fine necklace, straw boater hat, and cream YSL handbag.">
+            <img src="images/palm-park-ysl-resort.jpg?v=2" alt="Palm Sanctuary & YSL Resort Styling" class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700" onerror="this.src='palm-park-ysl-resort.jpg?v=2'">
+            <div class="absolute inset-0 bg-gradient-to-t from-noir via-noir/20 to-transparent opacity-80 group-hover:opacity-90 transition-opacity"></div>
+            <div class="absolute bottom-0 inset-x-0 p-6 flex justify-between items-end">
+              <div>
+                <span class="text-[10px] uppercase tracking-widest text-gold font-semibold">Jewelry & Watches • Resort</span>
+                <h3 class="text-xl font-serif text-white">Palm Sanctuary & YSL Resort Styling</h3>
+                <p class="text-xs text-slate-300 mt-1">Wristwatch & Fine Jewelry • YSL Couture</p>
               </div>
               <span class="w-10 h-10 shrink-0 ml-3 rounded-full bg-noir/60 backdrop-blur-md border border-white/25 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-noir group-hover:border-gold transition-all shadow-md">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -1124,18 +1158,18 @@
       </div>
     </section>
 
-    <!-- SECTION 2: CORPORATE & TECH CONFERENCE PRODUCTION -->
+    <!-- SECTION 2: BRAND CONFERENCES & PRODUCTION -->
     <section id="events" class="py-24 px-4 sm:px-6 lg:px-8 bg-noirLight/30 border-t border-white/5 role-section">
       <div class="max-w-7xl mx-auto space-y-16">
         
         <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-6 border-b border-white/10">
           <div>
-            <span class="text-gold uppercase tracking-[0.2em] text-xs font-semibold">Corporate & Tech Production</span>
+            <span class="text-gold uppercase tracking-[0.2em] text-xs font-semibold">Brand Conferences & Production</span>
             <h2 class="text-3xl sm:text-5xl font-serif text-white mt-1">
-              Tech Conferences, Hackathons & Brand Showcases
+              Brand Conferences & Showcases
             </h2>
             <p class="text-slate-400 text-sm sm:text-base mt-2 max-w-xl">
-              Executive conference and brand showcase production managed with engineering precision — organizing developer hackathons, AI summits, and official brand presentations alongside leading an IT project.
+              Executive conference and brand showcase production managed with engineering precision — organizing official brand presentations, industry summits, and hackathons alongside leading an IT project.
             </p>
           </div>
 
@@ -1381,7 +1415,7 @@
                     <label class="cursor-pointer">
                       <input type="radio" name="projectType" value="event" class="peer sr-only">
                       <div class="p-2.5 rounded-xl bg-white/5 border border-white/10 peer-checked:border-gold peer-checked:bg-gold/10 text-[11px] font-medium text-slate-300 peer-checked:text-gold transition-all text-center">
-                        🎤 Tech / Brand Conference
+                        🎤 Brand Conference
                       </div>
                     </label>
                   </div>
